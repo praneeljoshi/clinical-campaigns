@@ -1,0 +1,37 @@
+{
+  "name": "clinical-campaigns-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Clinical Campaigns platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "healthcare",
+    "voice-ai",
+    "campaigns"
+  ],
+  "author": "",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "@vapi-ai/web": "^2.4.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
